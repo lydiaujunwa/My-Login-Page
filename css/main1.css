@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&family=Lobster&family=Palanquin+Dark:wght@700&family=Tangerine:wght@700&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
@@ -54,8 +55,9 @@ ul>li{
     color: black;
 }
 .header-auth-list{
-    color: var(---primary-color);
+    color: var(---black);
     font-weight: bolder;
+    font-size: 20px;
     margin-left: 60px;
 }
 .header-auth-list:hover{
@@ -110,6 +112,7 @@ a:hover{
     padding: 10px 20px;
     font-size: 20px;
     color: black;
+    margin-left: 30px;
 }
 .title{
     text-align: justify;
@@ -143,7 +146,7 @@ a:hover{
     border: none;
     border-radius: 20px;
     margin-left: 40px;
-    width: 150%;  
+    width: 100%;  
 }
 .room{
     width: 350px;
